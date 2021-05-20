@@ -1,16 +1,28 @@
-@import url('https://fonts.google.apis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.google.apis.com/css?family=Press+Start+2p&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Press Start 2p', sans-serif;
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    text-align: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.choose-insect-btn img {
+  width: 100pxheight: 100px;
+  object-fit: contain;
 }
